@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./VideoPoker"
+	"VideoPoker/VideoPoker"
 )
 
 func main() {
