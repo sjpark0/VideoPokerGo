@@ -6,17 +6,19 @@ import (
 
 func main() {
 	//t := UNKNOWN
-	game := VideoPoker.NewVideoPoker()
+	/*game := VideoPoker.NewVideoPoker()
 	checker := VideoPoker.NewCheckCARD()
-	//var hand []VideoPoker.CARD
 
-	game.GenerateCARD()
+	game.GenerateCARDForTest()
+	game.PrintHand()
+	game.ChangeHand()
 	game.PrintHand()
 	hand := game.GetHand()
 
 	checker.Sorting(hand)
-	game.PrintCard(hand, 5)
 
-	checker.PrintHandCheck(hand)
+	checker.PrintHandCheck(hand)*/
+	game := VideoPoker.NewVideoPoker()
+	game.TotalProbability()
 
 }
